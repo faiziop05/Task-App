@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "new",
-    "slug": "new",
+    "name": "ToDo",
+    "slug": "ToDo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,6 +15,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.faiziop05.ToDo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -22,6 +23,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2913a9c-3f4d-4058-a1eb-d844a2a7bd25"
+      }
     }
   }
 }
