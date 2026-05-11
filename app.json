@@ -1,14 +1,13 @@
 {
   "expo": {
-    "name": "ToDo",
+    "name": "TaskFlow",
     "slug": "ToDo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/mainIcon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/mainIcon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,13 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/mainIcon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.faiziop05.taskflow"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/mainIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2913a9c-3f4d-4058-a1eb-d844a2a7bd25"
+      }
     }
   }
 }
